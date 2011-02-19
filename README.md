@@ -18,7 +18,7 @@ big_{k,j}v
 
 redis
     offers everything that Redis 2.2 does
-    behaves like mranney's [node_redis](TODO)
+    behaves like mranney's [node_redis](https://github.com/mranney/node_redis)
     Example: Redis 2.2
 </pre>
 
@@ -57,4 +57,4 @@ req = .setBig(k)      req.{write,end}
 
 ### WrapRedis(redis\_conn, {prefix: null, key\_parse: null, key\_stringify: null})
 
-* Redis via mranney's [node_redis](TODO)
+* Redis via mranney's [node_redis](https://github.com/mranney/node_redis)
