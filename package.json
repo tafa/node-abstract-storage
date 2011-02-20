@@ -1,0 +1,21 @@
+{
+    "name": "abstract-storage",
+    "version": "0.0.1",
+    
+    "description": "Wrap various datastore clients",
+    "url": "https://github.com/tafa/node-abstract-storage",
+    
+    "main": "build/main.js",
+    
+    "dependencies": {
+        "keyjson": ">=1.0.1",
+        "async": ">=0.1.7"
+    },
+    
+    "author": "TAFA",
+    
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tafa/node-abstract-storage.git"
+    }
+}
