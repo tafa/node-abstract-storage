@@ -55,6 +55,6 @@ req = .setBig(k)      req.{write,end}
 
 ## Datastore Wrappers
 
-### WrapRedis(redis\_conn, {prefix: null, key\_parse: null, key\_stringify: null})
+### WrapRedis(redis\_conn, {prefix: "", keyjson: false})
 
 * Redis via mranney's [node_redis](https://github.com/mranney/node_redis)
