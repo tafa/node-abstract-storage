@@ -19,6 +19,7 @@ exports.RedisWrapper = class RedisWrapper
   constructor: (@conn, opt) ->
     opt = opt or {}
     prefix = opt.prefix or new Buffer ''
+    prefix = new Buffer prefix if prefix not instanceof Buffer
     if opt.keyjson
       @enc = (k) ->
         k = new Buffer k if k not instanceof Buffer
