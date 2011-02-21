@@ -7,7 +7,7 @@ kv
 jv
     like kv, but the keys get <a href="http://keyjson.org">keyjson</a> {en,de}coded
 
-big_{k,j}v
+{k,j}v_big
     like {k,j}v, but also with .{get,set}Big
     Example: S3
     Example: jvr with a chunking/unchunking wrapper
