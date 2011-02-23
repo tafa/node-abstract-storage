@@ -36,7 +36,7 @@ Conventions:
 .set k, v
 .del k
 
-req = .getBig(k)      req.on {data,end}
+res = .getBig(k)      res.on {data,end}
 req = .setBig(k)      req.{write,end}
 
 .getRange: TODO
